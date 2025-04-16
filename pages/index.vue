@@ -3,6 +3,9 @@
   <SiteHeaderS />
   <SiteCover />
   <SiteAbout />
+  <SiteFooter />
+
+  <float-whatsapp />
 
 
 

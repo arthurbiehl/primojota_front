@@ -14,9 +14,9 @@
     <!-- topicos -->
     <div class="w-full py-5 flex justify-center items-center bg-white"> 
       <div class="w-full max-w-[1300px] flex flex-wrap gap-3 items-center justify-center sm:items-center sm:justify-start">
-        <div v-for="item in items" :key="item" class="sm:w-[400px] w-full sm:h-[250px] bg-white sm:border sm:border-[#e3e3e3] sm:rounded-md sm:shadow-md flex justify-center items-center transition-all duration-300">
-          <div class="sm:w-[350px] w-[95%] sm:h-[200px] flex flex-col justify-start items-start overflow-hidden p-2 ">
-            <div class="sm:w-[70px] w-[50px] h-[50px] sm:h-[70px] flex justify-center items-center rounded-[10px] bg-[#00776bd5]">
+        <div v-for="item in items" :key="item" class="sm:w-[400px] w-full sm:h-[230px] bg-white sm:border sm:border-[#e3e3e3] sm:rounded-md sm:shadow-md flex justify-center items-center transition-all duration-300">
+          <div class="sm:w-[380px] w-[95%] sm:h-[210px] flex flex-col justify-start items-start overflow-hidden p-2 ">
+            <div class="sm:w-[60px] w-[50px] h-[50px] sm:h-[60px] flex justify-center items-center rounded-[10px] bg-[#00776bd5]">
               <Icon :name="item.icone" class="sm:w-[35px] w-[25px] h-[25px] sm:h-[35px] text-white" />
             </div>
             <h2 class="sm:text-[23px] text-[18px] font-semibold text-[#434343] mt-2.5">{{ item.titalo }}</h2>
@@ -36,16 +36,6 @@
       titalo: "Muita historia",
       descricao:
         "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    },
-    {
-      icone: "material-symbols:tab-close-inactive-rounded",
-      titalo: "asdasd",
-      descricao: "asdasd",
-    },
-    {
-      icone: "material-symbols:tab-close-inactive-rounded",
-      titalo: "asdasd",
-      descricao: "asdasd",
     },
     {
       icone: "material-symbols:tab-close-inactive-rounded",
