@@ -1,6 +1,8 @@
 <template>
+
   <SiteHeaderS />
   <SiteCover />
+  <SiteAbout />
 
 
 
@@ -8,4 +10,5 @@
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+</style>

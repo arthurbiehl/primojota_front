@@ -5,9 +5,9 @@
         <img src="/logo.png" alt="Logo" class="w-[120px] h-[120px] object-contain" />
       </div>
       <div class="hidden md:flex items-center gap-5 justify-center w-1/3">
-        <a href="/" class="text-[13px] text-[#d5d5d5] font-normal hover:text-white transition duration-300">Início</a>
-        <a href="/" class="text-[13px] text-[#d5d5d5] font-normal hover:text-white transition duration-300">Ações</a>
-        <a href="/" class="text-[13px] text-[#d5d5d5] font-normal hover:text-white transition duration-300">Sobre Nós</a>
+        <a href="/" class="text-[14px] text-[#d5d5d5] font-[700] hover:text-white transition duration-300">Início</a>
+        <a href="/" class="text-[14px] text-[#d5d5d5] font-[700] hover:text-white transition duration-300">Ações</a>
+        <a href="/" class="text-[14px] text-[#d5d5d5] font-[700] hover:text-white transition duration-300">Sobre Nós</a>
       </div>
       <icon @click="modalState = true" name="ph:text-align-right-light" class="text-white text-[33px] p-[3px] rounded-[3px] cursor-pointer hover:bg-[#292929] transition duration-300 md:hidden ml-auto" />
     </div>
@@ -21,9 +21,9 @@
         </div>
         <div class="w-full flex flex-col items-center mt-[30px]">
           <div class="w-full flex flex-col items-center gap-[15px] font-light">
-            <a class="text-white text-[13px] font-normal hover:text-[#bbbbbb] transition duration-300" href="/">Início</a>
-            <a class="text-white text-[13px] font-normal hover:text-[#bbbbbb] transition duration-300" href="/">Ações</a>
-            <a class="text-white text-[13px] font-normal hover:text-[#bbbbbb] transition duration-300" href="/">Sobre Nós</a>
+            <a class="text-white text-[13px] font-[700] hover:text-[#bbbbbb] transition duration-300" href="/">Início</a>
+            <a class="text-white text-[13px] font-[700] hover:text-[#bbbbbb] transition duration-300" href="/">Ações</a>
+            <a class="text-white text-[13px] font-[700] hover:text-[#bbbbbb] transition duration-300" href="/">Sobre Nós</a>
           </div>
         </div>
       </div>
