@@ -1,0 +1,53 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.5.6",
+    "@nuxtjs/color-mode": "^3.5.1",
+    "@nuxtjs/leaflet": "^1.2.3",
+    "@pinia/nuxt": "^0.5.5",
+    "@primevue/themes": "^4.1.1",
+    "@radix-icons/vue": "^1.0.0",
+    "@unovis/ts": "^1.5.1",
+    "@unovis/vue": "^1.5.1",
+    "@vueuse/nuxt": "^11.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "embla-carousel-vue": "^8.5.2",
+    "leaflet": "^1.9.4",
+    "lucide-vue-next": "^0.447.0",
+    "maska": "^2.1.10",
+    "nuxt": "^3.13.0",
+    "primevue": "^4.1.1",
+    "radix-vue": "^1.9.7",
+    "reka-ui": "^2.1.0",
+    "shadcn-nuxt": "^0.10.4",
+    "socket.io-client": "^4.8.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "v-money3": "^3.24.1",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue-the-mask": "^0.11.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@primevue/nuxt-module": "^4.1.1",
+    "@vueuse/core": "^11.3.0",
+    "@vueuse/nuxt": "^11.1.0",
+    "typescript": "^5.6.3"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
