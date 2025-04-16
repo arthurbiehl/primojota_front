@@ -1,13 +1,13 @@
 <template>
     <div class="w-full py-5 flex justify-center items-center bg-white">
       <div class="w-full max-w-[1300px] flex flex-wrap gap-3 items-center justify-center sm:items-center sm:justify-start">
-        <div v-for="item in items" :key="item" class="w-[400px] h-[250px] bg-white border border-[#e3e3e3] rounded-md shadow-md flex justify-center items-center transition-all duration-300">
-          <div class="w-[350px] h-[200px] flex flex-col justify-start items-start overflow-hidden p-2 ">
-            <div class="w-[70px] h-[70px] flex justify-center items-center rounded-[10px] bg-[#00776bd5]">
-              <Icon :name="item.icone" class="w-[35px] h-[35px] text-white" />
+        <div v-for="item in items" :key="item" class="sm:w-[400px] w-full sm:h-[250px] bg-white sm:border sm:border-[#e3e3e3] sm:rounded-md sm:shadow-md flex justify-center items-center transition-all duration-300">
+          <div class="sm:w-[350px] w-[95%] sm:h-[200px] flex flex-col justify-start items-start overflow-hidden p-2 ">
+            <div class="sm:w-[70px] w-[50px] h-[50px] sm:h-[70px] flex justify-center items-center rounded-[10px] bg-[#00776bd5]">
+              <Icon :name="item.icone" class="sm:w-[35px] w-[25px] h-[25px] sm:h-[35px] text-white" />
             </div>
-            <h2 class="text-[23px] font-semibold text-[#434343] mt-2.5">{{ item.titalo }}</h2>
-            <p class="text-[15px] font-normal text-[#8a8a8a] break-words" style="word-break: break-word; overflow-wrap: break-word;">
+            <h2 class="sm:text-[23px] text-[18px] font-semibold text-[#434343] mt-2.5">{{ item.titalo }}</h2>
+            <p class="sm:text-[15px] text-[12px] font-normal text-[#8a8a8a] break-words" style="word-break: break-word; overflow-wrap: break-word;">
               {{ item.descricao }}
             </p>
           </div>
